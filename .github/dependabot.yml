@@ -1,15 +1,9 @@
 
 version: 2
 updates:
-  - package-ecosystem: "gomod" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "monthly"
-    target-branch: "dev"
-    open-pull-requests-limit: 20
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "monthly"
+      interval: "daily"
     target-branch: "dev"
     open-pull-requests-limit: 20
