@@ -27,4 +27,8 @@ jobs:
         echo "github.actor"
         echo ${{ github.actor }} 
         echo ${{ !startsWith(github.actor, 'dependabot') }}
+        echo "combination 1"
+        echo ${{ !startsWith(github.ref, 'refs/tags/v') }} && ${{ !startsWith(github.actor, 'dependabot') }}
+        echo "combination 2"
+        echo ${{ !startsWith(github.ref, 'refs/tags/v') }} || ${{ !startsWith(github.actor, 'dependabot') }}
         echo "end"
