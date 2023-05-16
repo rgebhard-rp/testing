@@ -73,7 +73,7 @@
     "@angular-eslint/schematics": "^16.0.1",
     "@angular-eslint/template-parser": "16.0.1",
     "@angular/cli": "~16.0.0",
-    "@angular/compiler-cli": "^16.0.0",
+    "@angular/compiler-cli": "^16.0.1",
     "@cypress/schematic": "^2.5.0",
     "@electron/asar": "^3.2.4",
     "@types/jasmine": "~4.3.1",
