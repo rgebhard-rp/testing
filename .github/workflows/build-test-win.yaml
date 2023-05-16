@@ -32,3 +32,12 @@ jobs:
         echo "combination 2"
         echo ${{ !startsWith(github.ref, 'refs/tags/v') || !startsWith(github.actor, 'dependabot') }}
         echo "end"
+
+    - name: Save Assets
+      # only save assets on a PR build, not a tagged build or dependabot build.
+      if: ${{ !startsWith(github.ref, 'refs/tags/v') && !startsWith(github.actor, 'dependabot') }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: bump
+        path: |
+          ./bump.md
