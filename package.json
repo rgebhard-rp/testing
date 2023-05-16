@@ -82,7 +82,7 @@
     "copy-files-from-to": "^3.8.0",
     "cypress": "12.12.0",
     "cypress-log-to-output": "^1.1.2",
-    "electron": "^24.1.1",
+    "electron": "^24.3.0",
     "electron-builder": "^24.3.0",
     "electron-debug": "^3.2.0",
     "electron-reloader": "^1.2.3",
