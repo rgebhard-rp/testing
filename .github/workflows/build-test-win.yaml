@@ -31,4 +31,3 @@ jobs:
         echo ${{ github.actor }} 
         echo ${{ !startsWith(github.actor, 'dependabot') }}
         echo "end"
-
