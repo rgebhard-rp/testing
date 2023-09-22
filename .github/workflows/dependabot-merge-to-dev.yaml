@@ -32,4 +32,4 @@ jobs:
           issuetype: Story
           summary: TESTING Jira Creation
           description: TESTING Jira Creation Description
-          fields: '{"assignee":null,"customfield_10009":0.25,"labels":["Dependabot"],"components":[{"name": "recoMD"}]}'
+          fields: '{"assignee":null,"customfield_10033":0.25,"labels":["Dependabot"],"components":[{"name": "recoMD"}]}'
